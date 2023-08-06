@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Source.S1_MCCPAY.MCCPAY"
+    android:sharedUserId="user.castles">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION " />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-feature android:name="android.hardware.camera2.full" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="false"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Splash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Main.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.OrderCheck"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.PayChoose"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.PayCheck"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.PayApprove"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Recipy"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Recipy2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.ICcard"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.MSRcard"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Load"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Load2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.NETSprompt_amount"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.NETSprompt_refno"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.SocketActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.model.DispayText"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.GetAmount"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.db.AndroidDatabaseManager"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.db.ChooseFileActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.db.DatabaseManager"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity android:name="com.Source.S1_MCCPAY.MCCPAY.EditDatabaseActivity"></activity>
+        <activity
+        android:name="com.Source.S1_MCCPAY.MCCPAY.model.UserInputString"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:label="@string/app_name"
+        android:theme="@style/FullscreenTheme">
+    </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.model.ConfirmMenu"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.model.DisplayCardIDLE"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="MCCPAY"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.model.DOptionMenu"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.model.DPopupMenuActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.model.NormalKeyBoard"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Main.MultiAP_SubAP"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.AmountEntryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+            <activity android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.S1InputString"
+            android:theme="@style/FullscreenTheme"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <activity
+        android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.BatchReview"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:label="@string/app_name"
+        android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.BatchReview2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.model.ConfirmOKMenu"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.model.EliteReceiptonScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.model.PrintReceiptonScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.UserConfirmCard"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.model.ConfirmMenu2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.Transactions"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.ConfirmQRCode"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.UserConfirmVoid"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.TransDetailListView"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.ProcessTransDetailUI"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.ScanQRCode"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.zbar.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.ConfirmQRCodePHQR"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+        </activity>
+    </application>
+
+</manifest>

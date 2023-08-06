@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.Source.S1_MCCPAY.MCCPAY.Main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/app_logo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/logo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_footer">
+
+        <TextView
+            android:id="@+id/textView_txn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@color/darkblue"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_cur"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/wechat"
+            android:gravity="center"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/shape_confirm">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/msg_text_01"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/msg_count_01"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="2dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/msg_detail_01"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="right|center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/msg_text_02"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/msg_count_02"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="2dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/msg_detail_02"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="right|center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/msg_text_03"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/msg_count_03"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="2dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/msg_detail_03"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="right|center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/msg_text_04"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/msg_count_04"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="2dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/msg_detail_04"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="right|center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/msg_text_05"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/msg_count_05"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="2dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/msg_detail_05"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="right|center_vertical"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16dp"
+                android:visibility="visible"
+                tools:text="" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/eleven_dp"
+        android:background="@color/azure"/>
+
+</LinearLayout>

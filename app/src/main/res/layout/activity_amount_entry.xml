@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/app_logo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/logo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/darkblue"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_txn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@color/darkblue"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_cur"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_confirm">
+
+        <TextView
+            android:id="@+id/textViewAmount"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/rndkbd_key_style"
+            android:gravity="center_vertical"
+            android:inputType=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:inputType=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/ibtnOne"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center|center_horizontal"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ibtnFour"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnTwo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ibtnTwo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:gravity="center|center_horizontal"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ibtnFive"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnThree"
+            app:layout_constraintStart_toEndOf="@+id/ibtnOne"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ibtnThree"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:gravity="center|center_horizontal"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ibtnSix"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ibtnTwo"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/ibtnFour"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:gravity="center|center_horizontal"
+            android:text="4"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ibtnSeven"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnFive"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnOne" />
+
+        <Button
+            android:id="@+id/ibtnFive"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:gravity="center|center_horizontal"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ibtnEight"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnSix"
+            app:layout_constraintStart_toEndOf="@+id/ibtnFour"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnTwo" />
+
+
+        <Button
+            android:id="@+id/ibtnSix"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:gravity="center|center_horizontal"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ibtnNine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ibtnFive"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnThree" />
+
+        <Button
+            android:id="@+id/ibtnSeven"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:gravity="center|center_horizontal"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ibtnAC"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnEight"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnFour" />
+
+        <Button
+            android:id="@+id/ibtnEight"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:gravity="center|center_horizontal"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ibtnZero"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnNine"
+            app:layout_constraintStart_toEndOf="@+id/ibtnSeven"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnFive" />
+
+        <Button
+            android:id="@+id/ibtnNine"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:gravity="center|center_horizontal"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/ibtnABC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ibtnEight"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnSix" />
+
+
+        <Button
+            android:id="@+id/ibtnAC"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:text=""
+            android:textColor="#D0D315"
+            android:textSize="25sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/ibtnCancel"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnZero"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnSeven" />
+
+        <Button
+            android:id="@+id/ibtnZero"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:gravity="center|center_horizontal"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+
+            app:layout_constraintBottom_toTopOf="@+id/ibtnClear"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnABC"
+            app:layout_constraintStart_toEndOf="@+id/ibtnAC"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnEight" />
+
+        <Button
+            android:id="@+id/ibtnABC"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_keypad"
+            android:text=""
+            android:textSize="25sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/ibtnEnter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ibtnZero"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnNine" />
+
+
+        <Button
+            android:id="@+id/ibtnCancel"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_cancel"
+            android:gravity="center|center_horizontal"
+            android:text="CANCEL"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnClear"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnAC" />
+
+        <Button
+            android:id="@+id/ibtnClear"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_back"
+            android:gravity="center|center_horizontal"
+            android:text="CLEAR"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnEnter"
+            app:layout_constraintStart_toEndOf="@+id/ibtnCancel"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnZero" />
+
+        <Button
+            android:id="@+id/ibtnEnter"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/shape_shadow_enter"
+            android:gravity="center|center_horizontal"
+            android:text="ENTER"
+            android:textColor="@color/bg_white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ibtnClear"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnABC" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

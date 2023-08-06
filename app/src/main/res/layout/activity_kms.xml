@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_bg_land"
+    android:orientation="vertical"
+    tools:context="com.Source.S1_MCCPAY.MCCPAY.Main.MainActivity">
+
+    <TextView
+        android:id="@+id/PinDigitTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/thirty_dp"
+        android:paddingBottom="@dimen/ten_dp"
+        android:tag="Medium"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/login_text_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="478dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/PinDigitTextView"
+        android:gravity="center|top">
+
+        <EditText
+            android:id="@+id/PinDigitEditText"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/pin_edit_text"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/FunctionkeyText"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/PinDigitEditText"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/pin_edit_text"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:textColor="@color/blue" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

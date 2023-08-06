@@ -1,0 +1,18 @@
+Executable : C:\Users\CastlesOne\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HC:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app
+-BC:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\.cxx\cmake\arm7Debug\armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\build\intermediates\cmake\arm7Debug\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=C:\Users\CastlesOne\AppData\Local\Android\Sdk\ndk\21.3.6528147
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\CastlesOne\AppData\Local\Android\Sdk\ndk\21.3.6528147\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\CastlesOne\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DPLATFORM_TARGET=android
+-DJNI_LIB_PATH=C:/projects/VEGA_Library/ANDROID/jniLibs/S1F/Ver0001/armeabi-v7a
+-DANDROID_TOOLCHAIN=clang
+jvmArgs : 
+

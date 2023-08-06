@@ -1,0 +1,112 @@
+apply plugin: 'com.android.application'
+
+def java_lib_dir = "C:/Projects/VEGA_Library/ANDROID/libs/S1F/Ver0001";
+def jni_lib_dir = 'C:/Projects/VEGA_Library/ANDROID/jniLibs/S1F/Ver0001';
+//def jni_lib_dir = 'C:/android/VEGA_Library/ANDROID/jniLibs/S1F2/Ver0001';
+//def java_lib_dir = "C:/android/VEGA_Library/ANDROID/libs/S1F2/Ver0001";
+//def jni_lib_dir = 'C:/Source/VEGA_Library/ANDROID/jniLibs/S1K/Ver0001';
+//def java_lib_dir = "C:/Source/VEGA_Library/ANDROID/libs/S1K/Ver0001";
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        applicationId "com.Source.S1_MCCPAY.MCCPAY"
+        minSdkVersion 26
+        targetSdkVersion 29
+        versionCode 16
+        versionName "1.14"
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+                arguments '-DPLATFORM_TARGET=android',
+                        "-DJNI_LIB_PATH=${jni_lib_dir}/armeabi-v7a",
+                        '-DANDROID_TOOLCHAIN=clang'
+            }
+        }
+    }
+
+    sourceSets.main {
+        //jniLibs.srcDirs = ['src/main/jniLibs']
+        jniLibs.srcDirs = [jni_lib_dir]
+        jni.srcDirs = []
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("./SignAPK/SignDemo.jks")
+            storePassword '123456'
+            keyAlias 'demo'
+            keyPassword '123456'
+        }
+
+        debug {
+            storeFile file("./SignAPK/SignDemo.jks")
+            storePassword '123456'
+            keyAlias 'demo'
+            keyPassword '123456'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            jniDebuggable true
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    flavorDimensions 'cpuArch'
+    productFlavors {
+        arm7 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilter 'armeabi-v7a'
+            }
+        }
+
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+    ndkVersion = '21.3.6528147'
+
+}
+repositories {
+    mavenCentral()
+    flatDir {
+        //dirs 'libs' //this way we can find the .aar file in libs folder
+        dirs java_lib_dir
+    }
+}
+
+dependencies {
+    //implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar','*.aar'], dir: java_lib_dir)
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.squareup.okhttp:okhttp:2.5.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.jakewharton.timber:timber:4.7.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.7'
+    //implementation (name: 'signature-pad-debug', ext: 'aar')
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    //implementation files('libs/CTOS.CtKMS2_1.4.1.jar')
+    //implementation files('libs/CTOS.CtEMVCusPINPadbyImg_0.0.7.jar')
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+
+    //Check Java Memory Leak, add new module to check java memorydebugImplementation 'com.squareup.leakcanary:leakcanary-android:2.6'
+    //debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
+    //releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.3'
+    //debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.3'
+}

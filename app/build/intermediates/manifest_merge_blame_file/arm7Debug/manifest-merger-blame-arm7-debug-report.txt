@@ -1,0 +1,560 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Source.S1_MCCPAY.MCCPAY"
+4    android:sharedUserId="user.castles"
+5    android:versionCode="24"
+6    android:versionName="1.51" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="15"
+9-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="26" />
+10-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.REORDER_TASKS" />
+14-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:8:5-72
+14-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:8:22-69
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:10:5-75
+16-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:10:22-73
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:11:2-75
+17-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:11:19-73
+18    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+18-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:12:5-75
+18-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:12:22-72
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:13:5-68
+19-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:13:22-65
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:14:5-79
+20-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:14:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION " />
+21-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:15:5-82
+21-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:15:22-79
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:16:5-65
+22-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:16:22-62
+23
+24    <uses-feature android:name="android.hardware.camera2" />
+24-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:17:5-61
+24-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:17:19-58
+25    <uses-feature android:name="android.hardware.camera2.full" />
+25-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:18:5-66
+25-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:18:19-63
+26
+27    <application
+27-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:20:5-282:19
+28        android:allowBackup="true"
+28-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:21:9-35
+29        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+29-->[com.android.support:support-compat:28.0.0] C:\Users\CastlesOne\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+30        android:debuggable="true"
+31        android:hardwareAccelerated="false"
+31-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:22:9-44
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:23:9-43
+33        android:label="@string/app_name"
+33-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:24:9-41
+34        android:largeHeap="false"
+34-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:25:9-34
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:26:9-54
+36        android:supportsRtl="true"
+36-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:27:9-35
+37        android:theme="@style/AppTheme" >
+37-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:28:9-40
+38        <activity
+38-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:29:9-41:20
+39            android:name="com.Source.S1_MCCPAY.MCCPAY.Splash"
+39-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:30:13-62
+40            android:configChanges="orientation|keyboardHidden|screenSize"
+40-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:31:13-74
+41            android:icon="@drawable/icon"
+41-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:32:13-42
+42            android:label="@string/app_name"
+42-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:33:13-45
+43            android:theme="@style/FullscreenTheme" >
+43-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:34:13-51
+44            <intent-filter>
+44-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:35:13-40:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:36:17-69
+45-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:36:25-66
+46
+47                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+47-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:39:17-85
+47-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:39:27-83
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:42:9-47:63
+51            android:name="com.Source.S1_MCCPAY.MCCPAY.Main.MainActivity"
+51-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:43:13-73
+52            android:configChanges="orientation|keyboardHidden|screenSize"
+52-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:44:13-74
+53            android:exported="true"
+53-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:45:13-36
+54            android:label="@string/app_name"
+54-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:46:13-45
+55            android:theme="@style/FullscreenTheme" />
+55-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:47:13-51
+56        <activity
+56-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:48:9-52:63
+57            android:name="com.Source.S1_MCCPAY.MCCPAY.OrderCheck"
+57-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:49:13-66
+58            android:configChanges="orientation|keyboardHidden|screenSize"
+58-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:50:13-74
+59            android:label="@string/app_name"
+59-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:51:13-45
+60            android:theme="@style/FullscreenTheme" />
+60-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:52:13-51
+61        <activity
+61-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:53:9-57:63
+62            android:name="com.Source.S1_MCCPAY.MCCPAY.PayChoose"
+62-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:54:13-65
+63            android:configChanges="orientation|keyboardHidden|screenSize"
+63-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:55:13-74
+64            android:label="@string/app_name"
+64-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:56:13-45
+65            android:theme="@style/FullscreenTheme" />
+65-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:57:13-51
+66        <activity
+66-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:58:9-62:63
+67            android:name="com.Source.S1_MCCPAY.MCCPAY.PayCheck"
+67-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:59:13-64
+68            android:configChanges="orientation|keyboardHidden|screenSize"
+68-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:60:13-74
+69            android:label="@string/app_name"
+69-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:61:13-45
+70            android:theme="@style/FullscreenTheme" />
+70-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:62:13-51
+71        <activity
+71-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:63:9-67:63
+72            android:name="com.Source.S1_MCCPAY.MCCPAY.PayApprove"
+72-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:64:13-66
+73            android:configChanges="orientation|keyboardHidden|screenSize"
+73-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:65:13-74
+74            android:label="@string/app_name"
+74-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:66:13-45
+75            android:theme="@style/FullscreenTheme" />
+75-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:67:13-51
+76        <activity
+76-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:68:9-72:63
+77            android:name="com.Source.S1_MCCPAY.MCCPAY.Recipy"
+77-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:69:13-62
+78            android:configChanges="orientation|keyboardHidden|screenSize"
+78-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:70:13-74
+79            android:label="@string/app_name"
+79-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:71:13-45
+80            android:theme="@style/FullscreenTheme" />
+80-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:72:13-51
+81        <activity
+81-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:73:9-77:63
+82            android:name="com.Source.S1_MCCPAY.MCCPAY.Recipy2"
+82-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:74:13-63
+83            android:configChanges="orientation|keyboardHidden|screenSize"
+83-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:75:13-74
+84            android:label="@string/app_name"
+84-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:76:13-45
+85            android:theme="@style/FullscreenTheme" />
+85-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:77:13-51
+86        <activity
+86-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:78:9-82:63
+87            android:name="com.Source.S1_MCCPAY.MCCPAY.ICcard"
+87-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:79:13-62
+88            android:configChanges="orientation|keyboardHidden|screenSize"
+88-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:80:13-74
+89            android:label="@string/app_name"
+89-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:81:13-45
+90            android:theme="@style/FullscreenTheme" />
+90-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:82:13-51
+91        <activity
+91-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:83:9-87:63
+92            android:name="com.Source.S1_MCCPAY.MCCPAY.MSRcard"
+92-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:84:13-63
+93            android:configChanges="orientation|keyboardHidden|screenSize"
+93-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:85:13-74
+94            android:label="@string/app_name"
+94-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:86:13-45
+95            android:theme="@style/FullscreenTheme" />
+95-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:87:13-51
+96        <activity
+96-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:88:9-92:63
+97            android:name="com.Source.S1_MCCPAY.MCCPAY.Load"
+97-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:89:13-60
+98            android:configChanges="orientation|keyboardHidden|screenSize"
+98-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:90:13-74
+99            android:label="@string/app_name"
+99-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:91:13-45
+100            android:theme="@style/FullscreenTheme" />
+100-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:92:13-51
+101        <activity
+101-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:93:9-97:63
+102            android:name="com.Source.S1_MCCPAY.MCCPAY.Load2"
+102-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:94:13-61
+103            android:configChanges="orientation|keyboardHidden|screenSize"
+103-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:95:13-74
+104            android:label="@string/app_name"
+104-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:96:13-45
+105            android:theme="@style/FullscreenTheme" />
+105-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:97:13-51
+106        <activity
+106-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:98:9-102:63
+107            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.NETSprompt_amount"
+107-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:99:13-79
+108            android:configChanges="orientation|keyboardHidden|screenSize"
+108-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:100:13-74
+109            android:label="@string/app_name"
+109-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:101:13-45
+110            android:theme="@style/FullscreenTheme" />
+110-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:102:13-51
+111        <activity
+111-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:103:9-107:63
+112            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.NETSprompt_refno"
+112-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:104:13-78
+113            android:configChanges="orientation|keyboardHidden|screenSize"
+113-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:105:13-74
+114            android:label="@string/app_name"
+114-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:106:13-45
+115            android:theme="@style/FullscreenTheme" />
+115-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:107:13-51
+116        <activity
+116-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:108:9-112:63
+117            android:name="com.Source.S1_MCCPAY.MCCPAY.SocketActivity"
+117-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:109:13-70
+118            android:configChanges="orientation|keyboardHidden|screenSize"
+118-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:110:13-74
+119            android:label="@string/app_name"
+119-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:111:13-45
+120            android:theme="@style/FullscreenTheme" />
+120-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:112:13-51
+121        <activity
+121-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:113:9-117:63
+122            android:name="com.Source.S1_MCCPAY.MCCPAY.model.DispayText"
+122-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:114:13-72
+123            android:configChanges="orientation|keyboardHidden|screenSize"
+123-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:115:13-74
+124            android:label="@string/app_name"
+124-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:116:13-45
+125            android:theme="@style/FullscreenTheme" />
+125-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:117:13-51
+126        <activity
+126-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:118:9-122:63
+127            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.GetAmount"
+127-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:119:13-71
+128            android:configChanges="orientation|keyboardHidden|screenSize"
+128-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:120:13-74
+129            android:label="@string/app_name"
+129-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:121:13-45
+130            android:theme="@style/FullscreenTheme" />
+130-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:122:13-51
+131        <activity
+131-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:123:9-127:63
+132            android:name="com.Source.S1_MCCPAY.MCCPAY.db.AndroidDatabaseManager"
+132-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:124:13-81
+133            android:configChanges="orientation|keyboardHidden|screenSize"
+133-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:125:13-74
+134            android:label="@string/app_name"
+134-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:126:13-45
+135            android:theme="@style/FullscreenTheme" />
+135-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:127:13-51
+136        <activity
+136-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:128:9-132:63
+137            android:name="com.Source.S1_MCCPAY.MCCPAY.db.ChooseFileActivity"
+137-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:129:13-77
+138            android:configChanges="orientation|keyboardHidden|screenSize"
+138-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:130:13-74
+139            android:label="@string/app_name"
+139-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:131:13-45
+140            android:theme="@style/FullscreenTheme" />
+140-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:132:13-51
+141        <activity
+141-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:133:9-137:63
+142            android:name="com.Source.S1_MCCPAY.MCCPAY.db.DatabaseManager"
+142-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:134:13-74
+143            android:configChanges="orientation|keyboardHidden|screenSize"
+143-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:135:13-74
+144            android:label="@string/app_name"
+144-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:136:13-45
+145            android:theme="@style/FullscreenTheme" />
+145-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:137:13-51
+146        <activity android:name="com.Source.S1_MCCPAY.MCCPAY.EditDatabaseActivity" />
+146-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:138:9-94
+146-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:138:19-82
+147        <activity
+147-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:139:9-144:16
+148            android:name="com.Source.S1_MCCPAY.MCCPAY.model.UserInputString"
+148-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:140:9-73
+149            android:configChanges="orientation|keyboardHidden|screenSize"
+149-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:141:9-70
+150            android:label="@string/app_name"
+150-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:142:9-41
+151            android:theme="@style/FullscreenTheme" >
+151-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:143:9-47
+152        </activity>
+153        <activity
+153-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:145:9-150:20
+154            android:name="com.Source.S1_MCCPAY.MCCPAY.model.ConfirmMenu"
+154-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:146:13-73
+155            android:configChanges="orientation|keyboardHidden|screenSize"
+155-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:147:13-74
+156            android:label="@string/app_name"
+156-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:148:13-45
+157            android:theme="@style/FullscreenTheme" >
+157-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:149:13-51
+158        </activity>
+159        <activity
+159-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:151:9-156:20
+160            android:name="com.Source.S1_MCCPAY.MCCPAY.model.DisplayCardIDLE"
+160-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:152:13-77
+161            android:configChanges="orientation|keyboardHidden|screenSize"
+161-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:153:13-74
+162            android:label="MCCPAY"
+162-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:154:13-35
+163            android:theme="@style/FullscreenTheme" >
+163-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:155:13-51
+164        </activity>
+165        <activity
+165-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:157:9-162:20
+166            android:name="com.Source.S1_MCCPAY.MCCPAY.model.DOptionMenu"
+166-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:158:13-73
+167            android:configChanges="orientation|keyboardHidden|screenSize"
+167-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:159:13-74
+168            android:label="@string/app_name"
+168-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:160:13-45
+169            android:theme="@style/FullscreenTheme" >
+169-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:161:13-51
+170        </activity>
+171        <activity
+171-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:163:9-168:20
+172            android:name="com.Source.S1_MCCPAY.MCCPAY.model.DPopupMenuActivity"
+172-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:164:13-80
+173            android:configChanges="orientation|keyboardHidden|screenSize"
+173-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:165:13-74
+174            android:label="@string/app_name"
+174-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:166:13-45
+175            android:theme="@style/FullscreenTheme" >
+175-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:167:13-51
+176        </activity>
+177        <activity
+177-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:169:9-174:20
+178            android:name="com.Source.S1_MCCPAY.MCCPAY.model.NormalKeyBoard"
+178-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:170:13-76
+179            android:configChanges="orientation|keyboardHidden|screenSize"
+179-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:171:13-74
+180            android:label="@string/app_name"
+180-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:172:13-45
+181            android:theme="@style/FullscreenTheme" >
+181-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:173:13-51
+182        </activity>
+183        <activity
+183-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:175:9-180:20
+184            android:name="com.Source.S1_MCCPAY.MCCPAY.Main.MultiAP_SubAP"
+184-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:176:13-74
+185            android:configChanges="orientation|keyboardHidden|screenSize"
+185-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:177:13-74
+186            android:exported="true"
+186-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:179:13-36
+187            android:label="@string/app_name" >
+187-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:178:13-45
+188        </activity>
+189        <activity
+189-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:181:9-186:20
+190            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.AmountEntryActivity"
+190-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:182:13-81
+191            android:configChanges="orientation|keyboardHidden|screenSize"
+191-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:183:13-74
+192            android:label="@string/app_name"
+192-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:184:13-45
+193            android:theme="@style/FullscreenTheme" >
+193-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:185:13-51
+194        </activity>
+195        <activity
+195-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:187:13-191:20
+196            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.S1InputString"
+196-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:187:23-85
+197            android:configChanges="orientation|keyboardHidden|screenSize"
+197-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:190:13-74
+198            android:label="@string/app_name"
+198-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:189:13-45
+199            android:theme="@style/FullscreenTheme" >
+199-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:188:13-51
+200        </activity>
+201        <activity
+201-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:192:9-197:20
+202            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.BatchReview"
+202-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:193:9-69
+203            android:configChanges="orientation|keyboardHidden|screenSize"
+203-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:194:9-70
+204            android:label="@string/app_name"
+204-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:195:9-41
+205            android:theme="@style/FullscreenTheme" >
+205-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:196:9-47
+206        </activity>
+207        <activity
+207-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:198:9-203:20
+208            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.BatchReview2"
+208-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:199:13-74
+209            android:configChanges="orientation|keyboardHidden|screenSize"
+209-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:200:13-74
+210            android:label="@string/app_name"
+210-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:201:13-45
+211            android:theme="@style/FullscreenTheme" >
+211-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:202:13-51
+212        </activity>
+213        <activity
+213-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:204:9-209:20
+214            android:name="com.Source.S1_MCCPAY.MCCPAY.model.ConfirmOKMenu"
+214-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:205:13-75
+215            android:configChanges="orientation|keyboardHidden|screenSize"
+215-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:206:13-74
+216            android:label="@string/app_name"
+216-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:207:13-45
+217            android:theme="@style/FullscreenTheme" >
+217-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:208:13-51
+218        </activity>
+219        <activity
+219-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:210:9-215:20
+220            android:name="com.Source.S1_MCCPAY.MCCPAY.model.EliteReceiptonScreen"
+220-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:211:13-82
+221            android:configChanges="orientation|keyboardHidden|screenSize"
+221-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:212:13-74
+222            android:label="@string/app_name"
+222-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:213:13-45
+223            android:theme="@style/FullscreenTheme" >
+223-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:214:13-51
+224        </activity>
+225        <activity
+225-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:216:9-221:20
+226            android:name="com.Source.S1_MCCPAY.MCCPAY.model.PrintReceiptonScreen"
+226-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:217:13-82
+227            android:configChanges="orientation|keyboardHidden|screenSize"
+227-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:218:13-74
+228            android:label="@string/app_name"
+228-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:219:13-45
+229            android:theme="@style/FullscreenTheme" >
+229-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:220:13-51
+230        </activity>
+231        <activity
+231-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:222:9-227:20
+232            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.UserConfirmCard"
+232-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:223:13-77
+233            android:configChanges="orientation|keyboardHidden|screenSize"
+233-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:224:13-74
+234            android:label="@string/app_name"
+234-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:225:13-45
+235            android:theme="@style/FullscreenTheme" >
+235-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:226:13-51
+236        </activity>
+237        <activity
+237-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:228:9-233:20
+238            android:name="com.Source.S1_MCCPAY.MCCPAY.model.ConfirmMenu2"
+238-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:229:13-74
+239            android:configChanges="orientation|keyboardHidden|screenSize"
+239-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:230:13-74
+240            android:label="@string/app_name"
+240-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:231:13-45
+241            android:theme="@style/FullscreenTheme" >
+241-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:232:13-51
+242        </activity>
+243        <activity
+243-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:234:9-239:20
+244            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.Transactions"
+244-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:235:13-74
+245            android:configChanges="orientation|keyboardHidden|screenSize"
+245-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:236:13-74
+246            android:label="@string/app_name"
+246-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:237:13-45
+247            android:theme="@style/FullscreenTheme" >
+247-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:238:13-51
+248        </activity>
+249        <activity
+249-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:240:9-245:20
+250            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.ConfirmQRCode"
+250-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:241:13-75
+251            android:configChanges="orientation|keyboardHidden|screenSize"
+251-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:242:13-74
+252            android:label="@string/app_name"
+252-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:243:13-45
+253            android:theme="@style/FullscreenTheme" >
+253-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:244:13-51
+254        </activity>
+255        <activity
+255-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:246:9-251:20
+256            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.UserConfirmVoid"
+256-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:247:13-77
+257            android:configChanges="orientation|keyboardHidden|screenSize"
+257-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:248:13-74
+258            android:label="@string/app_name"
+258-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:249:13-45
+259            android:theme="@style/FullscreenTheme" >
+259-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:250:13-51
+260        </activity>
+261        <activity
+261-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:252:9-257:20
+262            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.TransDetailListView"
+262-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:253:13-81
+263            android:configChanges="orientation|keyboardHidden|screenSize"
+263-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:254:13-74
+264            android:label="@string/app_name"
+264-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:255:13-45
+265            android:theme="@style/FullscreenTheme" >
+265-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:256:13-51
+266        </activity>
+267        <activity
+267-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:258:9-263:20
+268            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.ProcessTransDetailUI"
+268-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:259:13-82
+269            android:configChanges="orientation|keyboardHidden|screenSize"
+269-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:260:13-74
+270            android:label="@string/app_name"
+270-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:261:13-45
+271            android:theme="@style/FullscreenTheme" >
+271-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:262:13-51
+272        </activity>
+273        <activity
+273-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:264:9-269:20
+274            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.ScanQRCode"
+274-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:265:13-72
+275            android:configChanges="orientation|keyboardHidden|screenSize"
+275-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:266:13-74
+276            android:label="@string/app_name"
+276-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:267:13-45
+277            android:theme="@style/FullscreenTheme" >
+277-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:268:13-51
+278        </activity>
+279        <activity
+279-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:270:9-275:20
+280            android:name="com.Source.S1_MCCPAY.MCCPAY.zbar.CaptureActivity"
+280-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:271:13-76
+281            android:configChanges="orientation|keyboardHidden|screenSize"
+281-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:272:13-74
+282            android:label="@string/app_name"
+282-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:273:13-45
+283            android:theme="@style/FullscreenTheme" >
+283-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:274:13-51
+284        </activity>
+285        <activity
+285-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:276:9-281:20
+286            android:name="com.Source.S1_MCCPAY.MCCPAY.Trans.ConfirmQRCodePHQR"
+286-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:277:13-79
+287            android:configChanges="orientation|keyboardHidden|screenSize"
+287-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:278:13-74
+288            android:label="@string/app_name"
+288-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:279:13-45
+289            android:theme="@style/FullscreenTheme" >
+289-->C:\Projects\MCC VERSION 12.3 - S1F\S1_MCCPAY\app\src\main\AndroidManifest.xml:280:13-51
+290        </activity>
+291    </application>
+292
+293</manifest>

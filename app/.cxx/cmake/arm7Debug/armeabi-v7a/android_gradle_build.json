@@ -1,0 +1,471 @@
+
+{
+	"buildFiles" : [ "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\CastlesOne\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build \"C:\\Projects\\MCC VERSION 12.3 - S1F\\S1_MCCPAY\\app\\.cxx\\cmake\\arm7Debug\\armeabi-v7a\" --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"curl-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "curl",
+			"buildType" : "debug",
+			"output" : "C:/projects/VEGA_Library/ANDROID/jniLibs/S1F/Ver0001/armeabi-v7a/libcurl.so",
+			"toolchain" : "2981048841"
+		},
+		"native-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\CastlesOne\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build \"C:\\Projects\\MCC VERSION 12.3 - S1F\\S1_MCCPAY\\app\\.cxx\\cmake\\arm7Debug\\armeabi-v7a\" --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Accum/accum.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Aptrans/MultiAptrans.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Aptrans/MultiShareCOM.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Aptrans/MultiShareECR.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Aptrans/MultiShareEMV.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Batch/POSbatch.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Comm/V5Comm.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Ctls/POSCtls.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Ctls/POSWave.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Database/DatabaseFunc.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Database/dct.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Database/gpt.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Database/ins.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Database/prm.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Debug/debug.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Erm/PosErm.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/FeliCa/FeliCa.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/FeliCa/FeliCa_Trans.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/FeliCa/Reader_PC.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Filemodule/myFileFunc.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Functionslist/POSFunctionKey.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Functionslist/POSFunctionsList.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Iso8583/V5IsoFunc.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Iso8583/pack.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Main/POSMain.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Md5/CRCmd5.cpp",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/PCI100/COMMS.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/PCI100/PCI100.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/PCI100/PCI100des.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/PinPad/pinpad.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Powrfail/POSPOWRFAIL.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Print/Print.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Sam/sam.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Setting/POSSetting.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/TcpServer/VCommTCP.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/TMS/TMS.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/CardUtil.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/Encryption.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/LocalAptrans.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/LocalFunc.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSAuth.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSCardVer.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSDebit.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSHost.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSInstallment.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSLoyalty.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSOffline.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSRefund.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSSale.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSSettlement.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSTipAdjust.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSTrans.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/POSVoid.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/TLESec.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Trans/TPSec.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Ui/Display.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Ui/showbmp.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Utils/myEZLib.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/Utils/wub_lib.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/DigitalWallet/POSAlipay.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/DigitalWallet/POSGCash.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/DigitalWallet/POSGrab.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/DigitalWallet/POSPhqr.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/DigitalWallet/POSUpi.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/DigitalWallet/POSWechat.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/DigitalWallet/POSXMLFunction.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/UIapi.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\CtosApi  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/src/main/cpp/patrick-lib.c",
+					"workingDirectory" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/.cxx/cmake/arm7Debug/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Projects/MCC VERSION 12.3 - S1F/S1_MCCPAY/app/build/intermediates/cmake/arm7Debug/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "2981048841"
+		},
+		"openssl-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "openssl",
+			"buildType" : "debug",
+			"output" : "C:/projects/VEGA_Library/ANDROID/jniLibs/S1F/Ver0001/armeabi-v7a/libcrypto.so",
+			"toolchain" : "2981048841"
+		},
+		"ssl-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "ssl",
+			"buildType" : "debug",
+			"output" : "C:/projects/VEGA_Library/ANDROID/jniLibs/S1F/Ver0001/armeabi-v7a/libssl.so",
+			"toolchain" : "2981048841"
+		}
+	},
+	"toolchains" : 
+	{
+		"2981048841" : 
+		{
+			"cCompilerExecutable" : "C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/CastlesOne/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

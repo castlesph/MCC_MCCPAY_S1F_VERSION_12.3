@@ -1,0 +1,4 @@
+#Mon Jul 31 13:42:30 SGT 2023
+base.0=C\:\\Projects\\MCC VERSION 12.3 - S1F\\S1_MCCPAY\\app\\build\\intermediates\\dex\\arm7Debug\\mergeDexArm7Debug\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

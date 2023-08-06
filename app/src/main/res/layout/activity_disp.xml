@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.Source.S1_MCCPAY.MCCPAY.Main.MainActivity">
+
+
+    <ListView
+        android:id="@+id/lsv_LCDTPrint"
+        android:divider="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <EditText
+        android:id="@+id/edtLog"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:clickable="true"
+        android:editable="false"
+        android:ems="12"
+        android:focusable="false"
+        android:inputType="textMultiLine"
+        android:maxLines="15"
+        android:text=""
+        android:textSize="12sp"
+        tools:ignore="KeyboardInaccessibleWidget" />
+
+
+
+</LinearLayout>
