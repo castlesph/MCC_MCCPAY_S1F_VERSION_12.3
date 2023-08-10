@@ -4870,6 +4870,12 @@ public String GetRootFS(String text) throws InterruptedException {
             public void run() {
                 overridePendingTransition(0, 0); // disable the animation, faster
 
+                try {
+                    Thread.sleep(200);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
                 if(MainActivity.inTermType == 5)
                     setContentView(R.layout.displaybox_message_s1em);
 				else
