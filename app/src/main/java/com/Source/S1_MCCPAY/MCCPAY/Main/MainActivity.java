@@ -292,6 +292,8 @@ public class MainActivity extends DemoAppActivity implements View.OnClickListene
 
     private boolean isHide = false;
 
+    boolean isFirstRun;
+
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("crypto");
@@ -551,7 +553,8 @@ public class MainActivity extends DemoAppActivity implements View.OnClickListene
         this.mWakeLock.acquire();
 
         final SharedPreferences wmbPreference = PreferenceManager.getDefaultSharedPreferences(this);
-        final boolean isFirstRun = wmbPreference.getBoolean("FIRSTRUN", true);
+        //final boolean isFirstRun = wmbPreference.getBoolean("FIRSTRUN", true);
+        //Log.i("MCCPAY", "-isFirstRun1 =" + isFirstRun);
 
 
 // Patrick here check is that sub application and return finish start
@@ -635,7 +638,8 @@ public class MainActivity extends DemoAppActivity implements View.OnClickListene
         int firstInit = inCTOSS_Get1stInitFlag();
         int DLNotFinished = inCTOSS_GetDLNotFinishedFlag();
         Log.i(TAG, "-inCTOSS_Get1stInitFlag: " + firstInit + " DLNotFinished:" + DLNotFinished);
-        Log.i(TAG, "-isFirstRun =" + isFirstRun);
+        isFirstRun = wmbPreference.getBoolean("FIRSTRUN", true);
+        Log.i(TAG, "-isFirstRun2 =" + isFirstRun);
 
         //DLNotFinished = 0;
         if(DLNotFinished == 1)
@@ -664,6 +668,7 @@ public class MainActivity extends DemoAppActivity implements View.OnClickListene
 						
 						int firstInit = inCTOSS_Get1stInitFlag();
 						int inAlreadyInitialized = inCTOSS_GetPHQRInit();
+                        DisplayStatusBox("Initializing|Please wait...|wait");
                         if (isFirstRun) {
                         // if(firstInit == 1){
 							if (inAlreadyInitialized != 1)
@@ -680,7 +685,7 @@ public class MainActivity extends DemoAppActivity implements View.OnClickListene
                             vdClearFile("/data/data/com.Source.S1_MCCPAY.MCCPAY/upipay_footer.bmp");
 
 
-                            DisplayStatusBox("Initializing|Please wait...|wait");
+
                             Log.i("saturn", "saturn run: Initializing...");
                             //copy file or Dir
                             Log.d("inCTOSS_SubAPMain", "MCCPAY START 2");
@@ -6009,7 +6014,7 @@ public String GetRootFS(String text) throws InterruptedException {
 
     @Override
     protected void onDestroy() {
-        Log.d(TAG, "onDestroy()");
+        Log.d(TAG, "MCCPAY onDestroy()");
         this.mWakeLock.release();
         super.onDestroy();
 
